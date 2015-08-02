@@ -10,8 +10,13 @@
 
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="url" value="jdbc:mysql://localhost:3306/internetshopdb" /> <!--dbname may be some other-->
+		<property name="url" value="jdbc:mysql://localhost:3306/internetshopdb" /> <!--dbname may be some other -->
 		<property name="username" value="root" />
 		<property name="password" value="root" />
 	</bean>
+
+	<bean id="orders" class="entity.Orders" scope="prototype">
+
+	</bean>
+
 </beans>

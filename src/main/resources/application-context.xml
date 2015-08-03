@@ -18,5 +18,14 @@
 	<bean id="orders" class="entity.Orders" scope="prototype">
 
 	</bean>
+	
+	<bean id="user" class="entity.User" scope="prototype">
+
+	</bean>
+
+	<bean id="ordersDAOimpl" class="DAO.impl.OrdersDAOimpl" scope="prototype">
+
+	</bean>
+
 
 </beans>

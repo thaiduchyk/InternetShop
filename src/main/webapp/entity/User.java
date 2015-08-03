@@ -10,9 +10,12 @@ public class User {
 	private String userPhoneNumber;
 	private String userEmail;
 	private Boolean alreadybuy;
+	private Boolean signedIn;
+	
+	
 
 	public User(Integer idUser, String userName, String userSurName, String userLogin, String userPassword,
-			String userAddress, String userPhoneNumber, String userEmail, Boolean alreadybuy) {
+			String userAddress, String userPhoneNumber, String userEmail, Boolean alreadybuy, Boolean signedIn) {
 		super();
 		this.idUser = idUser;
 		this.userName = userName;
@@ -23,7 +26,10 @@ public class User {
 		this.userPhoneNumber = userPhoneNumber;
 		this.userEmail = userEmail;
 		this.alreadybuy = alreadybuy;
+		this.signedIn = signedIn;
 	}
+
+	
 
 	public User() {
 		super();
@@ -100,5 +106,19 @@ public class User {
 	public void setAlreadybuy(Boolean alreadybuy) {
 		this.alreadybuy = alreadybuy;
 	}
+
+
+
+	public Boolean getSignedIn() {
+		return signedIn;
+	}
+
+
+
+	public void setSignedIn(Boolean signedIn) {
+		this.signedIn = signedIn;
+	}
+	
+	
 
 }

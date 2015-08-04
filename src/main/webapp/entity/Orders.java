@@ -1,8 +1,8 @@
 package entity;
 
 import java.util.Date;
-//hello 
 
+// This is "Orders" entity according to appropriate table in DB.
 public class Orders {
 	private Integer idOrders;
 	private Date dateOfOrder;

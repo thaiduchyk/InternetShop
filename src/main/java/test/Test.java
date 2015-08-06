@@ -1,8 +1,6 @@
 package test;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -10,6 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import DAO.impl.OrdersDAOimpl;
 import entity.Orders;
 import entity.User;
+
 
 public class Test {
 

@@ -1,6 +1,6 @@
 public class Temp {
 
-	UserCreate userCreate = new UserCreate();
+	UserCreate userCreate = null;
 
 	public Boolean isNull(Object obj) {
 		return obj == null;
@@ -12,5 +12,5 @@ public class Temp {
 		}
 		return false;
 	}
-
+	
 }

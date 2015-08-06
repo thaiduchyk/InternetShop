@@ -22,7 +22,7 @@ public class Test {
 		User user =  (User) appContext.getBean("user");
 		OrdersDAOimpl ordersDAO = (OrdersDAOimpl) appContext.getBean("ordersDAOimpl");
 		user.setIdUser(1);
-		ordersDAO.saveOrder(user, date, 700.0);
+		ordersDAO.saveOrder(user, date, 567.0);
 		
 //		System.out.println(ordersDAO.getOrdersByUser(user).get(0).getTotalPrice());
 		
